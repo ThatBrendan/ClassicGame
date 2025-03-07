@@ -1,0 +1,26 @@
+{
+  "Playstation": {
+    "navBarMenu": [
+      {
+        "title": "Home",
+        "to": "home"
+      },
+      {
+        "title": "Game List",
+        "to": "GameList"
+      }
+    ]
+  },
+  "Xbox": {
+    "navBarMenu": [
+      {
+        "title": "Home",
+        "to": "home"
+      },
+      {
+        "title": "Game List",
+        "to": "GameList"
+      }
+    ]
+  }
+}

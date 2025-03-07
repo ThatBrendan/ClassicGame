@@ -1,0 +1,241 @@
+{
+  "playstation": [
+    {
+      "id": 1,
+      "title": "Final Fantasy VII",
+      "description": "An epic role-playing game that follows Cloud Strife and his allies as they battle the evil Shinra Corporation and the enigmatic Sephiroth.",
+      "released": "1997",
+      "images": [
+        "/Playstation/FinalFantasy/FinalFantasy1.jpg",
+        "/Playstation/FinalFantasy/FinalFantasy2.jpg",
+        "/Playstation/FinalFantasy/FinalFantasy3.jpg",
+        "/Playstation/FinalFantasy/FinalFantasy4.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Metal Gear Solid",
+      "description": "A stealth action game where players control Solid Snake as he infiltrates a nuclear weapons facility to neutralize the terrorist threat.",
+      "released": "1998",
+      "images": [
+        "/Playstation/MGS/MGS1.jpg",
+        "/Playstation/MGS/MGS2.jpg",
+        "/Playstation/MGS/MGS3.jpg",
+        "/Playstation/MGS/MGS4.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Resident Evil 2",
+      "description": "A survival horror game set in Raccoon City, where players control Leon S. Kennedy and Claire Redfield as they try to escape a zombie outbreak.",
+      "released": "1998",
+      "images": [
+        "/Playstation/RE/RE1.jpeg",
+        "/Playstation/RE/RE2.jpg",
+        "/Playstation/RE/RE3.jpg",
+        "/Playstation/RE/RE4.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Crash Bandicoot",
+      "description": "A platformer where players control Crash Bandicoot as he tries to stop the evil Dr. Neo Cortex from taking over the world.",
+      "released": "1996",
+      "images": [
+        "/Playstation/Crash/crash1.jpg",
+        "/Playstation/Crash/crash2.jpeg",
+        "/Playstation/Crash/crash3.jpg",
+        "/Playstation/Crash/crash4.jpeg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Gran Turismo",
+      "description": "A racing simulation game that offers a realistic driving experience with a wide variety of cars and tracks.",
+      "released": "1997",
+      "images": [
+        "/Playstation/GT/GT1.webp",
+        "/Playstation/GT/GT2.jpg",
+        "/Playstation/GT/GT3.jpg",
+        "/Playstation/GT/GT4.webp"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Castlevania: Symphony of the Night",
+      "description": "An action-adventure game where players control Alucard as he explores Dracula's castle to defeat the dark lord.",
+      "released": "1997",
+      "images": [
+        "/Playstation/Castle/Castelevania2.webp",
+        "/Playstation/Castle/Castelevania1.webp",
+        "/Playstation/Castle/Castelevania3.jpg",
+        "/Playstation/Castle/Castelevania4.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Silent Hill",
+      "description": "A survival horror game where players control Harry Mason as he searches for his missing daughter in the eerie town of Silent Hill.",
+      "released": "1999",
+      "images": [
+        "/Playstation/Silent/Silent1.webp",
+        "/Playstation/Silent/Silent2.jpg",
+        "/Playstation/Silent/Silent3.avif",
+        "/Playstation/Silent/Silent4.avif"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Spyro the Dragon",
+      "description": "A platformer where players control Spyro, a young dragon, as he rescues his fellow dragons and defeats the evil Gnasty Gnorc.",
+      "released": "1998",
+      "images": [
+        "/Playstation/Spyro/Spyro1.avif",
+        "/Playstation/Spyro/Spyro2.webp",
+        "/Playstation/Spyro/Spyro3.webp",
+        "/Playstation/Spyro/Spyro4.wewbp"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Tomb Raider",
+      "description": "An action-adventure game where players control Lara Croft as she explores ancient tombs and uncovers hidden treasures.",
+      "released": "1996",
+      "images": [
+        "/Playstation/Crash/crash1.jpg",
+        "/Playstation/Crash/crash2.jpeg",
+        "/Playstation/Crash/crash3.jpg",
+        "/Playstation/Crash/crash4.jpeg"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Tekken 3",
+      "description": "A fighting game that features a diverse roster of characters and fast-paced combat.",
+      "released": "1997",
+      "images": [
+        "/Playstation/Crash/crash1.jpg",
+        "/Playstation/Crash/crash2.jpeg",
+        "/Playstation/Crash/crash3.jpg",
+        "/Playstation/Crash/crash4.jpeg"
+      ]
+    }
+  ],
+  "xbox": [
+    {
+      "id": 1,
+      "title": "Halo: Combat Evolved",
+      "description": "A first-person shooter where players control Master Chief as he battles the alien Covenant on the mysterious ringworld, Halo.",
+      "released": "2001",
+      "images": [
+        "/Xbox/Halo/Halo1.jpg",
+        "/Xbox/Halo/Halo2.webp",
+        "/Xbox/Halo/Halo3.jpeg",
+        "/Xbox/Halo/Halo4.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Fable",
+      "description": "An action role-playing game where players control a hero whose actions and decisions shape the world around them.",
+      "released": "2004",
+      "images": [
+        "/Xbox/Fable/Fable1.jpeg",
+        "/Xbox/Fable/Fable2.webp",
+        "/Xbox/Fable/Fable3.jpeg",
+        "/Xbox/Fable/Fable4.avif"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Star Wars: Knights of the Old Republic",
+      "description": "An RPG set in the Star Wars universe, where players make choices that affect the outcome of the story.",
+      "released": "2003",
+      "images": ["/Xbox/SW/SW1.jpeg", "/Xbox/SW/SW2.avif", "/Xbox/SW/SW3.avif", "/Xbox/SW/SW4.webp"]
+    },
+    {
+      "id": 4,
+      "title": "The Elder Scrolls III: Morrowind",
+      "description": "An open-world RPG where players explore the vast land of Morrowind and complete quests.",
+      "released": "2002",
+      "images": [
+        "/Xbox/Elder/Elder1.jpeg",
+        "/Xbox/Elder/Elder2.jpg",
+        "/Xbox/Elder/Elder3.jpg",
+        "/Xbox/Elder/Elder4.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Ninja Gaiden",
+      "description": "An action-adventure game where players control Ryu Hayabusa as he battles enemies and uncovers a dark conspiracy.",
+      "released": "2004",
+      "images": [
+        "/Xbox/Ninja/Ninja1.jpg",
+        "/Xbox/Ninja/Ninja2.jpg",
+        "/Xbox/Ninja/Ninja3.jpeg",
+        "/Xbox/Ninja/Ninja4.jpeg"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Project Gotham Racing",
+      "description": "A racing game that rewards players for stylish driving and completing challenges.",
+      "released": "2001",
+      "images": [
+        "/Xbox/Halo/Halo1.jpg",
+        "/Xbox/Halo/Halo2.webp",
+        "/Xbox/Halo/Halo3.jpeg",
+        "/Xbox/Halo/Halo4.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Splinter Cell",
+      "description": "A stealth action game where players control Sam Fisher as he completes covert missions for the NSA.",
+      "released": "2002",
+      "images": [
+        "/Xbox/Halo/Halo1.jpg",
+        "/Xbox/Halo/Halo2.webp",
+        "/Xbox/Halo/Halo3.jpeg",
+        "/Xbox/Halo/Halo4.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Burnout 3: Takedown",
+      "description": "A racing game that focuses on high-speed crashes and aggressive driving.",
+      "released": "2004",
+      "images": [
+        "/Xbox/Halo/Halo1.jpg",
+        "/Xbox/Halo/Halo2.webp",
+        "/Xbox/Halo/Halo3.jpeg",
+        "/Xbox/Halo/Halo4.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Jade Empire",
+      "description": "An action RPG set in a world inspired by Chinese mythology, where players control a martial artist on a quest to save their homeland.",
+      "released": "2005",
+      "images": [
+        "/Xbox/Halo/Halo1.jpg",
+        "/Xbox/Halo/Halo2.webp",
+        "/Xbox/Halo/Halo3.jpeg",
+        "/Xbox/Halo/Halo4.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Crimson Skies: High Road to Revenge",
+      "description": "An aerial combat game set in an alternate history where players control a pilot battling sky pirates.",
+      "released": "2003",
+      "images": [
+        "/Xbox/Halo/Halo1.jpg",
+        "/Xbox/Halo/Halo2.webp",
+        "/Xbox/Halo/Halo3.jpeg",
+        "/Xbox/Halo/Halo4.jpg"
+      ]
+    }
+  ]
+}

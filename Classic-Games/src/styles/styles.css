@@ -1,0 +1,32 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --blue: #054aa9;
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #363636;
+  --green: #2c8139;
+
+  --max-width: 1500px;
+  --navbar-height: 90px;
+}
+
+.no-margin {
+  margin: 0;
+}
