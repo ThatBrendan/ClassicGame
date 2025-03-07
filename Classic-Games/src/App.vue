@@ -23,20 +23,20 @@
 </template>
 
 <script lang="ts" setup>
-import FooterPage from './components/FooterPage.vue'
-import { useStateStore } from './stores/stateStore'
-import { useRouter } from 'vue-router'
+import FooterPage from "./components/FooterPage.vue";
+import { useStateStore } from "./stores/stateStore";
+import { useRouter } from "vue-router";
 
-const store = useStateStore()
-const router = useRouter()
+const store = useStateStore();
+const router = useRouter();
 
 function handleSwitch(title: string) {
-  const selectedMenu = store.menu.find((m) => m.title === title)
+  const selectedMenu = store.menu.find((m) => m.title === title);
 
   if (selectedMenu?.to) {
-    router.push({ name: selectedMenu.to })
+    router.push({ name: selectedMenu.to });
   } else if (title === store.view.switchMenu) {
-    store.switchView()
+    store.switchView();
   }
 }
 </script>

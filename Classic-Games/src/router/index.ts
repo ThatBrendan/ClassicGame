@@ -1,28 +1,28 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from "vue-router";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
-      name: 'home',
-      component: () => import('../views/HomeView.vue'),
+      path: "/",
+      name: "home",
+      component: () => import("../views/HomeView.vue"),
     },
     {
-      path: '/gameList',
-      name: 'GameList',
-      component: () => import('../views/GameListView.vue'),
+      path: "/gameList",
+      name: "GameList",
+      component: () => import("../views/GameListView.vue"),
     },
   ],
   scrollBehavior(to) {
     if (to.hash) {
       return {
         el: to.hash,
-        behavior: 'smooth',
-      }
+        behavior: "smooth",
+      };
     }
-    return { top: 0 }
+    return { top: 0 };
   },
-})
+});
 
-export default router
+export default router;

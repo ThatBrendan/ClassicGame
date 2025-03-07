@@ -9,8 +9,14 @@
 
 <script lang="ts" setup>
 defineProps<{
-  game: { id: number; title: string; description: string; released: string; images: string[] }
-}>()
+  game: {
+    id: number;
+    title: string;
+    description: string;
+    released: string;
+    images: string[];
+  };
+}>();
 </script>
 
 <style scoped>

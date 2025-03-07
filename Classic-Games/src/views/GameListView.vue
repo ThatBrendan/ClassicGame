@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts" setup>
-import ClassicGameList from '@/components/ClassicGameList.vue'
+import ClassicGameList from "@/components/ClassicGameList.vue";
 </script>
 
 <style scoped>

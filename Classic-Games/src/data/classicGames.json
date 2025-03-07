@@ -151,7 +151,12 @@
       "title": "Star Wars: Knights of the Old Republic",
       "description": "An RPG set in the Star Wars universe, where players make choices that affect the outcome of the story.",
       "released": "2003",
-      "images": ["/Xbox/SW/SW1.jpeg", "/Xbox/SW/SW2.avif", "/Xbox/SW/SW3.avif", "/Xbox/SW/SW4.webp"]
+      "images": [
+        "/Xbox/SW/SW1.jpeg",
+        "/Xbox/SW/SW2.avif",
+        "/Xbox/SW/SW3.avif",
+        "/Xbox/SW/SW4.webp"
+      ]
     },
     {
       "id": 4,

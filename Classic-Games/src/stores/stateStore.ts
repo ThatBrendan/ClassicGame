@@ -1,7 +1,7 @@
-import { defineStore } from 'pinia'
-import { playstation, xbox } from '@/type/storeViews'
+import { defineStore } from "pinia";
+import { playstation, xbox } from "@/type/storeViews";
 
-export const useStateStore = defineStore('useState', {
+export const useStateStore = defineStore("useState", {
   state: () => ({
     currentView: playstation,
   }),
@@ -9,14 +9,17 @@ export const useStateStore = defineStore('useState', {
   getters: {
     view: (state) => state.currentView,
     menu: (state) => {
-      return [...state.currentView.navMenu.navBarMenu, { title: state.currentView.switchMenu }]
+      return [
+        ...state.currentView.navMenu.navBarMenu,
+        { title: state.currentView.switchMenu },
+      ];
     },
     switchMenu: (state) => state.currentView.switchMenu,
   },
 
   actions: {
     switchView() {
-      this.currentView = this.currentView.isPlayStation() ? xbox : playstation
+      this.currentView = this.currentView.isPlayStation() ? xbox : playstation;
     },
   },
-})
+});

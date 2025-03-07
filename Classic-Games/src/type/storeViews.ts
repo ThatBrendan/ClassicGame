@@ -1,17 +1,17 @@
-import PlayStationLogo from '@/assets/navLogo/Playstation_logo.png'
-import XboxLogo from '@/assets/navLogo/Xbox_logo.png'
-import navMenu from '../data/navMenu.json'
+import PlayStationLogo from "@/assets/navLogo/Playstation_logo.png";
+import XboxLogo from "@/assets/navLogo/Xbox_logo.png";
+import navMenu from "../data/navMenu.json";
 
-const PLAYSTATION = 'Playstation'
-const XBOX = 'Xbox'
+const PLAYSTATION = "Playstation";
+const XBOX = "Xbox";
 
 export interface MenuRef {
-  title: string
-  to?: string
+  title: string;
+  to?: string;
 }
 
 export interface NavMenu {
-  navBarMenu: MenuRef[]
+  navBarMenu: MenuRef[];
 }
 
 export const createView = (
@@ -27,25 +27,25 @@ export const createView = (
   switchMenu,
   navMenu,
   isPlayStation() {
-    return name === PLAYSTATION
+    return name === PLAYSTATION;
   },
   isXbox() {
-    return name === XBOX
+    return name === XBOX;
   },
-})
+});
 
 export const playstation = createView(
   PLAYSTATION,
   PlayStationLogo,
-  'var(--blue)',
-  'Switch to Xbox',
+  "var(--blue)",
+  "Switch to Xbox",
   navMenu[PLAYSTATION] as NavMenu,
-)
+);
 
 export const xbox = createView(
   XBOX,
   XboxLogo,
-  'var(--green)',
-  'Switch to Playstation',
+  "var(--green)",
+  "Switch to Playstation",
   navMenu[XBOX] as NavMenu,
-)
+);

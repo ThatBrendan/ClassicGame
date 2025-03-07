@@ -2,7 +2,10 @@
   <div class="desktop-carousel">
     <div class="carousel">
       <button class="carousel-btn left" @click="prevSlide">&lt;</button>
-      <div class="carousel-track" :style="{ transform: `translateX(${getOffset()})` }">
+      <div
+        class="carousel-track"
+        :style="{ transform: `translateX(${getOffset()})` }"
+      >
         <div class="carousel-slide" v-for="(game, index) in games" :key="index">
           <div class="overlay"></div>
           <img :src="game.images" alt="" class="carousel-image" />
@@ -17,41 +20,42 @@
 </template>
 
 <script lang="ts" setup>
-import { onMounted, onUnmounted, ref } from 'vue'
+import { onMounted, onUnmounted, ref } from "vue";
 
-const props = defineProps<{ games: { images: string; title: string }[] }>()
-const currentSlide = ref(0)
-const slideTime = 9000
-let timer: NodeJS.Timeout | null = null
+const props = defineProps<{ games: { images: string; title: string }[] }>();
+const currentSlide = ref(0);
+const slideTime = 9000;
+let timer: NodeJS.Timeout | null = null;
 
 function getOffset() {
-  return `-${currentSlide.value * 100}%`
+  return `-${currentSlide.value * 100}%`;
 }
 
 function prevSlide() {
-  currentSlide.value = (currentSlide.value - 1 + props.games.length) % props.games.length
-  restartCountdown()
+  currentSlide.value =
+    (currentSlide.value - 1 + props.games.length) % props.games.length;
+  restartCountdown();
 }
 
 function nextSlide() {
-  currentSlide.value = (currentSlide.value + 1) % props.games.length
-  restartCountdown()
+  currentSlide.value = (currentSlide.value + 1) % props.games.length;
+  restartCountdown();
 }
 
 function restartCountdown() {
-  if (timer) clearTimeout(timer)
-  timer = setTimeout(nextSlide, slideTime)
+  if (timer) clearTimeout(timer);
+  timer = setTimeout(nextSlide, slideTime);
 }
 
 onMounted(() => {
   if (props.games.length > 1) {
-    timer = setTimeout(nextSlide, slideTime)
+    timer = setTimeout(nextSlide, slideTime);
   }
-})
+});
 
 onUnmounted(() => {
-  if (timer) clearTimeout(timer)
-})
+  if (timer) clearTimeout(timer);
+});
 </script>
 
 <style scoped>
