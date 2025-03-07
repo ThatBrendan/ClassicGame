@@ -1,5 +1,5 @@
 <template>
-  <div class="classic-game-card">
+  <div class="classic-game-card" :style="{ borderColor: store.view.borderColor }">
     <img :src="game.images[0]" alt="" class="game-image" />
     <h2 class="h6 boldFont">{{ game.title }}</h2>
     <p>{{ game.description }}</p>
@@ -8,6 +8,9 @@
 </template>
 
 <script lang="ts" setup>
+import { useStateStore } from "@/stores/stateStore";
+
+const store = useStateStore();
 defineProps<{
   game: {
     id: number;
@@ -22,8 +25,8 @@ defineProps<{
 <style scoped>
 .classic-game-card {
   width: 400px;
-  border: 2px solid var(--blue);
   border-radius: 10px;
+  border: 2px solid;
   padding: 5px 10px;
   height: 350px;
   margin: 5px 10px;
