@@ -14,7 +14,7 @@ const router = createRouter({
       component: () => import("../views/GameListView.vue"),
     },
   ],
-  scrollBehavior(to) {
+  scrollBehavior(to: { hash: any }) {
     if (to.hash) {
       return {
         el: to.hash,
