@@ -13,6 +13,11 @@ const router = createRouter({
       name: "GameList",
       component: () => import("../views/GameListView.vue"),
     },
+    {
+      path: "/game/:name",
+      name: "GameView",
+      component: () => import("../views/GameView.vue"),
+    },
   ],
   scrollBehavior(to: { hash: any }) {
     if (to.hash) {
